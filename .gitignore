@@ -1,0 +1,24 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+.venv/
+
+# Jupyter checkpoints
+*.ipynb_checkpoints
+
+# OS files
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Data folders (to avoid pushing large data files)
+naip_data/
+buildings.geojson
+
+# Ignore any tif files (big geospatial imagery)
+*.tif
